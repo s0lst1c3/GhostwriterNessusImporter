@@ -1,0 +1,14 @@
+from enum import StrEnum
+
+
+class CVSSVectorPrefixes(StrEnum):
+
+    ATTACK_VECTOR = "AV"
+    ATTACK_COMPLEXITY = "AC"
+    PRIVILEGES_REQUIRED = "PR"
+    AUTH_REQUIRED = "AU"
+    USER_INTERACTION = "UI"
+    SCOPE = "S"
+    CONFIDENTIALITY_IMPACT = "C"
+    INTEGRITY_IMPACT = "I"
+    AVAILABILITY_IMPACT = "A"

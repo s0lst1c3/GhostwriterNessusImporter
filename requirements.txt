@@ -1,0 +1,6 @@
+requests
+gql
+aiohttp
+python-json-logger
+varname
+pytenable
